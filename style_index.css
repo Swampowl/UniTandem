@@ -1,4 +1,5 @@
 html{
+    font-family: arial, sans-serif;
     align-content: center;
     text-align: center;
     background-color: blueviolet;
@@ -17,3 +18,22 @@ html{
  {
      color: white;
  }
+ .center{
+     margin-left: auto;
+     margin-right: auto;
+ }
+ table {
+    border-collapse:inherit;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid red;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
