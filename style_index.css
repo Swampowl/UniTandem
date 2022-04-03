@@ -1,4 +1,5 @@
 html{
+    font-family: 'Courier New', Courier, monospace;
     align-content: center;
     text-align: center;
     background-color: blueviolet;
@@ -22,7 +23,7 @@ html{
      margin-right: auto;
  }
  table {
-    border-collapse:inherit;
+    table-layout: auto;
     width: 50%;
   }
   
@@ -33,6 +34,6 @@ html{
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #dddddd48;
   }
   
